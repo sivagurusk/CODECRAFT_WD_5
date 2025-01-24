@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    background-image: url(../wea/HD-wallpaper-dr-doom-kills-thanos-avengers-comics-death-dr-doom-marvel-onlymarvel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .weather-app {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    background-image: url(../wea/IMG-20240708-WA0012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+  }
+  .weather-app:hover{
+    cursor: pointer;
+    opacity: 100%;
+  }
+  
+  .weather-app h1 {
+    font-size: 1.8rem;
+    color: #00796b;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #004d40;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    font-size: 1.5rem;
+    color: #00796b;
+  }
+  
+  .weather-info p {
+    font-size: 1rem;
+    color: #555;
+  }
